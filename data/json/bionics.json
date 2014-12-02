@@ -650,5 +650,33 @@
         "name": "Weather Reader",
         "act_cost": 25,
         "description": "A multitude of scientific instruments and sensors collect environmental data. The data is compiled and presented as a simple readout of the current weather."
+    },{
+        "type": "bionic",
+        "id": "bio_reactor_activate",
+        "name": "Activate Reactor",
+        "toggled": true,
+        "act_cost": 1,
+        "react_cost": 1,
+        "time": 10,
+        "description": "Your Reactor is Activated ."
+    },{
+        "type": "bionic",
+        "id": "bio_water_replenish",
+        "name": "Water Replenishment",
+        "act_cost": 300,
+        "description": "Light emitting diodes integrated into your skin can release a flash comparable to a flashbang grenade, blinding nearby enemies.  Speakers integrated into your body mimic the loud sound, deafening those nearby."
+    },{
+        "type": "bionic",
+        "id": "bio_food_replenish",
+        "name": "Food Replenishment",
+        "act_cost": 250,
+        "description": "Light emitting diodes integrated into your skin can release a flash comparable to a flashbang grenade, blinding nearby enemies.  Speakers integrated into your body mimic the loud sound, deafening those nearby."
+    },{
+        "type": "bionic",
+        "id": "bio_sleep_replenish",
+        "name": "Sleep Replenishment",
+        "act_cost": 150,
+        "description": "Light emitting diodes integrated into your skin can release a flash comparable to a flashbang grenade, blinding nearby enemies.  Speakers integrated into your body mimic the loud sound, deafening those nearby."
     }
+
 ]

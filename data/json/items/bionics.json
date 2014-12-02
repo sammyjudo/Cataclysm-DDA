@@ -172,7 +172,7 @@
     {
         "type": "BIONIC_ITEM",
         "category": "bionics",
-        "id": "bio_blood_anal",
+        "id": "bio_blood_analysis",
         "symbol": ":",
         "color": "yellow",
         "name": "Blood Analysis CBM",
@@ -986,6 +986,24 @@
         "to_hit": 0,
         "difficulty": 1
     },
+     {
+        "type": "BIONIC_ITEM",
+        "category": "bionics",
+        "id": "bio_power_storage_mkIII",
+        "symbol": ":",
+        "color": "yellow",
+        "name": "Power Storage CBM Mk. III",
+        "name_plural": "Power Storage CBMs Mk. III",
+        "description": "Compact Bionics Module developed at Sam.Co as a replacement for the highly successful Power Storage CBM MK. II.  Increases your power capacity by 600 units.",
+        "price": 1000000,
+        "material": ["steel", "plastic"],
+        "weight": 2041,
+        "volume": 10,
+        "bashing": 8,
+        "cutting": 0,
+        "to_hit": 0,
+        "difficulty": 1
+    },
     {
         "type": "BIONIC_ITEM",
         "category": "bionics",
@@ -1410,5 +1428,77 @@
         "cutting": 0,
         "to_hit": 0,
         "difficulty": 3
+    },
+    {
+        "type": "BIONIC_ITEM",
+        "category": "bionics",
+        "id": "bio_plutgen",
+        "symbol": ":",
+        "color": "yellow",
+        "name": "Internal Minireactor CBM",
+        "description": "A powerful minireactor installed inside your body where your appendix was. It produces large amounts of electricity continually but requires an imput of plutonium cells.",
+        "price": 250000,
+        "material": ["steel", "plastic"],
+        "weight": 2041,
+        "volume": 10,
+        "bashing": 8,
+        "cutting": 0,
+        "to_hit": 0,
+        "difficulty": 3
+    },
+    {
+        "type": "BIONIC_ITEM",
+        "category": "bionics",
+        "id": "bio_water",
+        "symbol": ":",
+        "color": "yellow",
+        "name": "Ambient H2O Replenisment CBM",
+        "description": "A CBM inside the lungs which effeciently extracts water from the air and uses it to replenish your own supply unfortunatly it costs 300 internal power per thirst level.",
+        "price": 25000,
+        "material": ["steel", "plastic"],
+        "weight": 2041,
+        "volume": 10,
+        "bashing": 8,
+        "cutting": 0,
+        "to_hit": 0,
+        "difficulty": 3
+    
+        
+    },
+    {
+        "type": "BIONIC_ITEM",
+        "category": "bionics",
+        "id": "bio_food",
+        "symbol": ":",
+        "color": "yellow",
+        "name": "Reversed Metabolic Interchange CBM",
+        "description": "A CBM that instead of turning food into power it turns power into food however restoring food levels cost 250 internal power per hunger level.",
+        "price": 25000,
+        "material": ["steel", "plastic"],
+        "weight": 2041,
+        "volume": 10,
+        "bashing": 8,
+        "cutting": 0,
+        "to_hit": 0,
+        "difficulty": 3
+    },
+        {
+        "type": "BIONIC_ITEM",
+        "category": "bionics",
+        "id": "bio_sleep",
+        "symbol": ":",
+        "color": "yellow",
+        "name": "Cranial Somnia Drive CBM",
+        "description": "A Bionic Mounted inside your skull it uses power to replenish you sleep to full unfortunatly it takes 150 internal power per level of sleep deprivation.",
+        "price": 25000,
+        "material": ["steel", "plastic"],
+        "weight": 2041,
+        "volume": 10,
+        "bashing": 8,
+        "cutting": 0,
+        "to_hit": 0,
+        "difficulty": 3
     }
+    
+
 ]
